@@ -1,2 +1,1 @@
-include keras_rcnn/data/*
-include keras_rcnn/data/**/*
+recursive-include keras_rcnn/data/*
