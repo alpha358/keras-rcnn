@@ -1,1 +1,2 @@
-include data/
+include keras_rcnn/data/*
+include data/*
