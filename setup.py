@@ -21,13 +21,14 @@ setuptools.setup(
     ],
     license="MIT",
     name="keras-rcnn",
-    package_data={
-        "keras-rcnn": [
-            "data/checkpoints/*/*.hdf5",
-            "data/logs/*/*.csv",
-            "data/notebooks/*/*.ipynb"
-        ]
-    },
+    include_package_data=True,
+#     package_data={
+#         "keras-rcnn": [
+#             "data/checkpoints/*/*.hdf5",
+#             "data/logs/*/*.csv",
+#             "data/notebooks/*/*.ipynb"
+#         ]
+#     },
     packages=setuptools.find_packages(
         exclude=[
             "tests"
